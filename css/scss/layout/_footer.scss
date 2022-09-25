@@ -1,0 +1,37 @@
+.footer {
+  background: #f8f9fa !important;
+  overflow: hidden;
+  margin-top: 60px;
+  padding: 24px 0;
+
+  .latesed,
+  .company,
+  .contact-us {
+    float: $floatleft;
+  }
+  .latesed {
+    width: 50%;
+    .text {
+      float: $floatleft;
+    }
+    .img-box {
+      img {
+        width: 100px;
+        float: left;
+      }
+      .text {
+        margin: 0 15px;
+        width: calc(100% - 130px);
+        h4,
+        p {
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .company,
+  .contact-us {
+    width: 25%;
+  }
+}

@@ -1,0 +1,20 @@
+@mixin minMobile() {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin overlay() {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin prefix($property, $value) {
+  @each $i in $prifex {
+    #{"-" + $i + "-" + $property}: $value;
+  }
+  $property: $value;
+}

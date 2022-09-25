@@ -1,0 +1,116 @@
+// Start Slider Section
+
+.slider {
+  blockquote {
+    font: {
+      family: tahoma;
+      size: 17px;
+      weight: bold;
+    }
+    line-height: 1.7;
+    width: 80%;
+    margin: 30px auto;
+  }
+  .bullets {
+    text-align: center;
+    img {
+      width: 100%;
+    }
+    li {
+      width: 20px;
+      height: 20px;
+      background-color: $greyColor;
+      border-radius: 50%;
+      display: inline-block;
+
+      border: 3px solid $greyColor;
+      &.active {
+        border: 3px solid black;
+      }
+    }
+  }
+}
+
+// End Slider Section
+// Start  Servies Section
+.servies {
+  .servies-box {
+    float: $floatleft;
+    width: (100%/3);
+    h3 {
+      i {
+        margin-right: 15px;
+        font: {
+          size: 30px;
+        }
+      }
+    }
+    p {
+      color: #777;
+    }
+
+    a {
+      color: $minColor;
+      text-decoration: none;
+    }
+  }
+}
+// End  Servies Section
+// Start  Player Section
+.our-player {
+  .player-box {
+    float: $floatleft;
+    width: (100%/5);
+    h3 {
+      font: {
+        weight: 500;
+      }
+      span {
+        font: {
+          weight: 700;
+        }
+      }
+
+      i {
+        margin-right: 15px;
+        font: {
+          size: 30px;
+        }
+      }
+    }
+    p {
+      color: #777;
+    }
+
+    a {
+      color: $minColor;
+      text-decoration: none;
+    }
+  }
+}
+// End  Player Section
+// Start Lorem Section
+.lorem {
+  overflow: hidden;
+  min-height: 380px;
+  .lorem-box {
+    float: $floatleft;
+    width: (94% /3);
+    max-height: 50px;
+    &:not(:last-of-type) {
+      margin-right: 3%;
+    }
+    .lorem-img {
+      max-width: 100%;
+    }
+  }
+}
+// End Lorem  Section
+.footer {
+  .latesed {
+    float: $floatleft;
+  }
+  .img-box {
+    float: $floatleft;
+  }
+}

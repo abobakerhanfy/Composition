@@ -1,0 +1,13 @@
+* {
+  @include prefix(box-sizing, border-box);
+}
+@import url(../../../normalize.css);
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: auto;
+  position: relative;
+}
+.clear {
+  clear: both;
+}

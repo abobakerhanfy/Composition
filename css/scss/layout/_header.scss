@@ -1,0 +1,36 @@
+.header {
+  border-bottom: 1px solid $greyColor;
+  overflow: hidden;
+  padding: 20px 0;
+  .logo {
+    float: $floatleft;
+    width: 30%;
+    h1 {
+    }
+    p {
+    }
+  }
+  .navbar {
+    background-color: $minColor;
+    float: $floatleft;
+    width: 70%;
+    border-radius: 15px;
+    padding: 15px 0;
+  }
+  li {
+    padding: 10px 15px;
+    color: #fff;
+    width: 20%;
+    float: $floatleft;
+    font-size: 15px;
+    display: block;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
